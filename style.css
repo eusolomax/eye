@@ -1,0 +1,95 @@
+body {
+    background-color: black;
+
+    cursor: not-allowed;
+}
+
+.texto {
+    font-family: 'Noto Serif', serif;
+    color: aliceblue;
+
+    position: fixed;
+
+    font-size: 60px;
+    
+    top: 100px;
+    left: 520px;
+
+}
+
+.bg {
+    background-color: rgb(233, 233, 233);
+    position: fixed;
+
+    border-radius: 200px;
+
+    width: 320px;
+    height: 180px;
+
+    top: 280px;
+    left: 520px;
+
+}
+
+.borda {
+    background: rgb(32, 32, 32);
+    position: relative;
+    
+    transform: rotate(35deg) scale(0.9);
+        
+    
+    width: 250px;
+    height: 200px;
+
+    left: 550px;
+    top: 260px;
+    
+    border-radius: 200px 0px 200px 0px
+}
+
+.esclera {
+    background: rgb(241, 241, 241);
+    position: relative;
+    
+    transform: rotate(36deg) scale(0.9);
+        
+    
+    width: 220px;
+    height: 180px;
+
+    left: 565px;
+    top: 70px;
+    
+    border-radius: 200px 0px 200px 0px
+}
+
+.circulo {
+    background: rgb(20, 20, 20);
+    position: relative;
+    
+    transform: rotate(35deg) scale(0.9);
+        
+    
+    width: 120px;
+    height: 120px;
+
+    left: 615px;
+    bottom: 80px;
+    
+    border-radius: 500px;
+}
+
+.reflexo {
+    background: rgb(230, 230, 230);
+    position: relative;
+    
+    transform: scale(0.2);        
+    
+    width: 120px;
+    height: 120px;
+
+    left: 595px;
+    bottom: 218px;
+    
+    border-radius: 500px;
+}
